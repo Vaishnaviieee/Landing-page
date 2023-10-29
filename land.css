@@ -1,0 +1,253 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 34px 97px 17px 203px;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color:#420080;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+header h1 {
+    color: white;
+    font-size: 76px;
+    justify-content: space-between;
+    margin:-5px 970px 50px 965px;
+}
+
+header p {
+    color: white;
+    font-size: 27px;
+    margin-top: -20px;
+    justify-content: space-between;
+}
+
+header a {
+    font-size: 31px; 
+    padding: 17px 21px; 
+    margin: 20px 20px 20px 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 16px 28px;
+    text-decoration: none;
+    background-color:#420080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 31px;
+}
+header {
+    background-image: url('https://themelooks.com/wp-content/uploads/2018/10/creative-agencies.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    .header {
+        position: relative;
+        text-align: center;
+        padding: 100px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://themelooks.com/wp-content/uploads/2018/10/creative-agencies.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    
+section {
+    padding: 50px 20px;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 88px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about img {
+    max-width: 98%;
+    height: auto;
+    margin: 7px 0;
+}
+
+.about-text {
+    max-width: 50px;
+    text-align: center;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+    padding: 50px 20px;
+}
+#oooo{
+    margin:22px 364px 37px 4px;
+    word-wrap: normal;
+}
+#oo{
+    margin:-15px 202px 41px -129px;
+}
+#ololo{
+    text-align: center;
+    margin: 20px -928px 49px 173px;
+}
+.service {
+    text-align: center;
+    margin: 100px 20px 30px 30px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service img {
+
+    margin:11px 36px 57px -334px;
+    max-width: 92%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service p {
+    font-size: 16px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #080101;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 11px;
+    margin-bottom: 13px;
+    width: 104%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #420080;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:#420080;
+}
+
+.contact p {
+    font-size: 17px;
+    margin-bottom: 27px;
+    background-color: #420080;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
